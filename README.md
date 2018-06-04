@@ -1,16 +1,18 @@
-TASK DATE: 23.11.2017 - Finished: 23.11.2017 (EASY)
+FOR PRIVACY AND CODE PROTECTING REASONS THIS IS A SIMPLIFIED VERSION OF CHANGES AND NEW FEATURES
+
+TASK DATE: 23.11.2017 - Finished: 23.11.2017
+
+TASK LEVEL: EASY
 
 TASK SHORT DESCRIPTION: 462/463 (searching NULL dobs/ages in advanced filters)
-
+	
 GITHUB REPOSITORY CODE: hotfix/task-462_463-filtering-null-values-on-dob-and-age
-
-ORIGINAL WORK: https://github.com/BusinessBecause/network-site/tree/hotfix/task-462_463-filtering-null-values-on-dob-and-age
 
 CHANGES
  
 	IN FILES: 
 	
-		\network-site\addons\default\modules\bbusers\models\user_query_m.php
+		user_query_m.php
 		
 		
 			CHANGED CODE 1: inside function _subquery_where_cond 
